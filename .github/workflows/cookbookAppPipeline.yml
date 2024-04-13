@@ -48,7 +48,7 @@ jobs:
       - name: Execute the UI tests
         run: npm run test:ui
 
-  deploy-to-rendercom:
+  deploy-app-to-rendercom:
     runs-on: ubuntu-latest
     needs: ui-tests
 
